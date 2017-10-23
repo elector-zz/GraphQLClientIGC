@@ -1,0 +1,11 @@
+C:\Users\branko.stojakovic\Documents\Visual Studio 2017\Projects\ConsoleTestForGraphQL\bin\Debug\netcoreapp2.0\ConsoleTestForGraphQL.deps.json
+C:\Users\branko.stojakovic\Documents\Visual Studio 2017\Projects\ConsoleTestForGraphQL\bin\Debug\netcoreapp2.0\ConsoleTestForGraphQL.runtimeconfig.json
+C:\Users\branko.stojakovic\Documents\Visual Studio 2017\Projects\ConsoleTestForGraphQL\bin\Debug\netcoreapp2.0\ConsoleTestForGraphQL.runtimeconfig.dev.json
+C:\Users\branko.stojakovic\Documents\Visual Studio 2017\Projects\ConsoleTestForGraphQL\bin\Debug\netcoreapp2.0\ConsoleTestForGraphQL.dll
+C:\Users\branko.stojakovic\Documents\Visual Studio 2017\Projects\ConsoleTestForGraphQL\obj\Debug\netcoreapp2.0\ConsoleTestForGraphQL.csprojResolveAssemblyReference.cache
+C:\Users\branko.stojakovic\Documents\Visual Studio 2017\Projects\ConsoleTestForGraphQL\obj\Debug\netcoreapp2.0\ConsoleTestForGraphQL.csproj.CoreCompileInputs.cache
+C:\Users\branko.stojakovic\Documents\Visual Studio 2017\Projects\ConsoleTestForGraphQL\obj\Debug\netcoreapp2.0\ConsoleTestForGraphQL.AssemblyInfoInputs.cache
+C:\Users\branko.stojakovic\Documents\Visual Studio 2017\Projects\ConsoleTestForGraphQL\obj\Debug\netcoreapp2.0\ConsoleTestForGraphQL.AssemblyInfo.cs
+C:\Users\branko.stojakovic\Documents\Visual Studio 2017\Projects\ConsoleTestForGraphQL\bin\Debug\netcoreapp2.0\ConsoleTestForGraphQL.pdb
+C:\Users\branko.stojakovic\Documents\Visual Studio 2017\Projects\ConsoleTestForGraphQL\obj\Debug\netcoreapp2.0\ConsoleTestForGraphQL.dll
+C:\Users\branko.stojakovic\Documents\Visual Studio 2017\Projects\ConsoleTestForGraphQL\obj\Debug\netcoreapp2.0\ConsoleTestForGraphQL.pdb
