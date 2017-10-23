@@ -82,7 +82,7 @@ namespace GraphQL
             var fullQuery = new GraphQLQuery()
             {
                 query = query,
-                variables = variables,
+                variables = "{\n  \"sportid\": 70\n}",
                 operationName = operationName
             };
             string jsonContent = JsonConvert.SerializeObject(fullQuery);

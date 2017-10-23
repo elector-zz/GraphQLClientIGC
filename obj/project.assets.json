@@ -3598,11 +3598,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\branko.stojakovic\\Documents\\Visual Studio 2017\\Projects\\ConsoleTestForGraphQL\\ConsoleTestForGraphQL.csproj",
+      "projectUniqueName": "C:\\DEV\\GraphQLPOC\\GraphQLClientIGC\\ConsoleTestForGraphQL.csproj",
       "projectName": "ConsoleTestForGraphQL",
-      "projectPath": "C:\\Users\\branko.stojakovic\\Documents\\Visual Studio 2017\\Projects\\ConsoleTestForGraphQL\\ConsoleTestForGraphQL.csproj",
+      "projectPath": "C:\\DEV\\GraphQLPOC\\GraphQLClientIGC\\ConsoleTestForGraphQL.csproj",
       "packagesPath": "C:\\Users\\branko.stojakovic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\branko.stojakovic\\Documents\\Visual Studio 2017\\Projects\\ConsoleTestForGraphQL\\obj\\",
+      "outputPath": "C:\\DEV\\GraphQLPOC\\GraphQLClientIGC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
