@@ -1,7 +1,9 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Text;
 
@@ -77,12 +79,20 @@ namespace GraphQL
         {
             this.url = url;
         }
-        public dynamic Query(string query, object variables, string operationName)
+        public dynamic Query(string query, List<KeyValuePair<string, object>> variables, string operationName)
         {
+            var str = "{" + string.Join(",", variables.Select(item => "\n  \"" + item.Key + "\": " + item.Value )) + "\n}";
+
+            StringBuilder variablesString = new StringBuilder();
+            foreach(var item in variables)
+            {
+                variablesString.Append("{\n  \"" + item.Key + "\": " + item.Value + "\n}");
+            }
+
             var fullQuery = new GraphQLQuery()
             {
                 query = query,
-                variables = "{\n  \"sportid\": 70\n}",
+                variables = str,
                 operationName = operationName
             };
             string jsonContent = JsonConvert.SerializeObject(fullQuery);

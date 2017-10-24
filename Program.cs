@@ -47,15 +47,19 @@ namespace ConsoleTestForGraphQL
             //    Console.WriteLine("Null :(");
             //}
 
-            var query = @"
-                        query GetSportById($sportid: ID) {
-                            sports(id: $sportid) {
-                                id
-                                name
-                            }
+            var query = @"query GetSportById($sportid: ID, $isActive: Boolean) {
+                          sports(id: $sportid, isActive: $isActive) {
+                            id,
+                            name
+                          }
                         }";
 
-            var obj = client.Query(query, new { sportid = 70 }, "GetSportById").Get<List<sports>>("sports");
+            List<KeyValuePair<string, object>> variables = new List<KeyValuePair<string, object>>();
+
+            variables.Add(new KeyValuePair<string, object>("sportid", 70));
+            variables.Add(new KeyValuePair<string, object>("isActive", "true")); // Boolean values need to be strings because getting values returns "True" insted of "true" 
+
+            var obj = client.Query(query, variables, "GetSportById").Get<List<sports>>("sports");
             if (obj != null)
             {
                 Console.WriteLine(obj[0].name);
