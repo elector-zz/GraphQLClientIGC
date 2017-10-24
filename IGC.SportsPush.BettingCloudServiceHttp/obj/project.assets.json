@@ -250,15 +250,6 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
-      "RESTClientDotNet/0.3.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.4/CF.RESTClient.NET.Standard.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.4/CF.RESTClient.NET.Standard.dll": {}
-        }
-      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -841,19 +832,6 @@
           "bin/placeholder/ICG.SportsPush.BettingCloud.DTOs.dll": {}
         }
       },
-      "IGC.SportsPush.BettingCloud.ServiceHttp/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Newtonsoft.Json": "10.0.3"
-        },
-        "compile": {
-          "bin/placeholder/IGC.SportsPush.BettingCloud.ServiceHttp.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/IGC.SportsPush.BettingCloud.ServiceHttp.dll": {}
-        }
-      },
       "IGC.SportsPush.BettingCloud.ServiceInterfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
@@ -1422,20 +1400,6 @@
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "tools/install.ps1"
-      ]
-    },
-    "RESTClientDotNet/0.3.0": {
-      "sha512": "oJ0+G2IWOb9Wq74TovOQl0okr0PTOgsW9kqm6Mmiwry0JO18T8srS+FyLGGjQKjg5F6gen6ty9IEwfAct/Y+zQ==",
-      "type": "package",
-      "path": "restclientdotnet/0.3.0",
-      "files": [
-        "lib/net46/CF.RESTClient.NET.Net461.dll",
-        "lib/netstandard1.4/CF.RESTClient.NET.Standard.dll",
-        "lib/portable-net4+sl4+wp7+win8/CF.RESTClient.NET.Xamarin.dll",
-        "lib/sl50/CF.RESTClient.NET.Silverlight.dll",
-        "lib/uap10.0/CF.RESTClient.NET.UWP.dll",
-        "restclientdotnet.0.3.0.nupkg.sha512",
-        "restclientdotnet.nuspec"
       ]
     },
     "System.Collections/4.3.0": {
@@ -3618,28 +3582,21 @@
     },
     "ICG.SportsPush.BettingCloud.DTOs/1.0.0": {
       "type": "project",
-      "path": "../ICG.SportsPush.BettingCloudTransportModel/ICG.SportsPush.BettingCloud.DTOs.csproj",
-      "msbuildProject": "../ICG.SportsPush.BettingCloudTransportModel/ICG.SportsPush.BettingCloud.DTOs.csproj"
-    },
-    "IGC.SportsPush.BettingCloud.ServiceHttp/1.0.0": {
-      "type": "project",
-      "path": "IGC.SportsPush.BettingCloudServiceHttp/IGC.SportsPush.BettingCloud.ServiceHttp.csproj",
-      "msbuildProject": "IGC.SportsPush.BettingCloudServiceHttp/IGC.SportsPush.BettingCloud.ServiceHttp.csproj"
+      "path": "../../ICG.SportsPush.BettingCloudTransportModel/ICG.SportsPush.BettingCloud.DTOs.csproj",
+      "msbuildProject": "../../ICG.SportsPush.BettingCloudTransportModel/ICG.SportsPush.BettingCloud.DTOs.csproj"
     },
     "IGC.SportsPush.BettingCloud.ServiceInterfaces/1.0.0": {
       "type": "project",
-      "path": "IGC.SportsPush.BettingCloudServiceInterfaces/IGC.SportsPush.BettingCloud.ServiceInterfaces.csproj",
-      "msbuildProject": "IGC.SportsPush.BettingCloudServiceInterfaces/IGC.SportsPush.BettingCloud.ServiceInterfaces.csproj"
+      "path": "../IGC.SportsPush.BettingCloudServiceInterfaces/IGC.SportsPush.BettingCloud.ServiceInterfaces.csproj",
+      "msbuildProject": "../IGC.SportsPush.BettingCloudServiceInterfaces/IGC.SportsPush.BettingCloud.ServiceInterfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "ICG.SportsPush.BettingCloud.DTOs >= 1.0.0",
-      "IGC.SportsPush.BettingCloud.ServiceHttp >= 1.0.0",
       "IGC.SportsPush.BettingCloud.ServiceInterfaces >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
-      "Newtonsoft.Json >= 10.0.3",
-      "RESTClientDotNet >= 0.3.0"
+      "Newtonsoft.Json >= 10.0.3"
     ]
   },
   "packageFolders": {
@@ -3652,11 +3609,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\DEV\\GraphQLPOC\\GraphQLClientIGC\\ConsoleTestForGraphQL.csproj",
-      "projectName": "ConsoleTestForGraphQL",
-      "projectPath": "C:\\DEV\\GraphQLPOC\\GraphQLClientIGC\\ConsoleTestForGraphQL.csproj",
+      "projectUniqueName": "C:\\DEV\\GraphQLPOC\\GraphQLClientIGC\\IGC.SportsPush.BettingCloudServiceHttp\\IGC.SportsPush.BettingCloud.ServiceHttp.csproj",
+      "projectName": "IGC.SportsPush.BettingCloud.ServiceHttp",
+      "projectPath": "C:\\DEV\\GraphQLPOC\\GraphQLClientIGC\\IGC.SportsPush.BettingCloudServiceHttp\\IGC.SportsPush.BettingCloud.ServiceHttp.csproj",
       "packagesPath": "C:\\Users\\branko.stojakovic\\.nuget\\packages\\",
-      "outputPath": "C:\\DEV\\GraphQLPOC\\GraphQLClientIGC\\obj\\",
+      "outputPath": "C:\\DEV\\GraphQLPOC\\GraphQLClientIGC\\IGC.SportsPush.BettingCloudServiceHttp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3676,14 +3633,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\DEV\\GraphQLPOC\\ICG.SportsPush.BettingCloudTransportModel\\ICG.SportsPush.BettingCloud.DTOs.csproj": {
-              "projectPath": "C:\\DEV\\GraphQLPOC\\ICG.SportsPush.BettingCloudTransportModel\\ICG.SportsPush.BettingCloud.DTOs.csproj"
-            },
-            "C:\\DEV\\GraphQLPOC\\GraphQLClientIGC\\IGC.SportsPush.BettingCloudServiceHttp\\IGC.SportsPush.BettingCloud.ServiceHttp.csproj": {
-              "projectPath": "C:\\DEV\\GraphQLPOC\\GraphQLClientIGC\\IGC.SportsPush.BettingCloudServiceHttp\\IGC.SportsPush.BettingCloud.ServiceHttp.csproj"
-            },
             "C:\\DEV\\GraphQLPOC\\GraphQLClientIGC\\IGC.SportsPush.BettingCloudServiceInterfaces\\IGC.SportsPush.BettingCloud.ServiceInterfaces.csproj": {
               "projectPath": "C:\\DEV\\GraphQLPOC\\GraphQLClientIGC\\IGC.SportsPush.BettingCloudServiceInterfaces\\IGC.SportsPush.BettingCloud.ServiceInterfaces.csproj"
+            },
+            "C:\\DEV\\GraphQLPOC\\ICG.SportsPush.BettingCloudTransportModel\\ICG.SportsPush.BettingCloud.DTOs.csproj": {
+              "projectPath": "C:\\DEV\\GraphQLPOC\\ICG.SportsPush.BettingCloudTransportModel\\ICG.SportsPush.BettingCloud.DTOs.csproj"
             }
           }
         }
@@ -3697,11 +3651,8 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "RESTClientDotNet": {
-            "target": "Package",
-            "version": "0.3.0"
-          },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true

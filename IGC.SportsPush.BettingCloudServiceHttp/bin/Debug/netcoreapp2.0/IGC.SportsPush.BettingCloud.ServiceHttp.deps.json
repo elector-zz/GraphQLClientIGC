@@ -1,18 +1,19 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "30cea32b27935bb489cf452b2dd8773bdcae108d"
+    "signature": "a57167a91e6f2e0d92b3a3dc1dbf26349ba10a7f"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "ConsoleTestForGraphQL/1.0.0": {
+      "IGC.SportsPush.BettingCloud.ServiceHttp/1.0.0": {
         "dependencies": {
-          "Newtonsoft.Json": "10.0.3",
-          "RESTClientDotNet": "0.3.0"
+          "ICG.SportsPush.BettingCloud.DTOs": "1.0.0",
+          "IGC.SportsPush.BettingCloud.ServiceInterfaces": "1.0.0",
+          "Newtonsoft.Json": "10.0.3"
         },
         "runtime": {
-          "ConsoleTestForGraphQL.dll": {}
+          "IGC.SportsPush.BettingCloud.ServiceHttp.dll": {}
         }
       },
       "Microsoft.CSharp/4.3.0": {
@@ -46,11 +47,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
-        }
-      },
-      "RESTClientDotNet/0.3.0": {
-        "runtime": {
-          "lib/netstandard1.4/CF.RESTClient.NET.Standard.dll": {}
         }
       },
       "System.Collections/4.3.0": {
@@ -392,11 +388,24 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "ICG.SportsPush.BettingCloud.DTOs/1.0.0": {
+        "runtime": {
+          "ICG.SportsPush.BettingCloud.DTOs.dll": {}
+        }
+      },
+      "IGC.SportsPush.BettingCloud.ServiceInterfaces/1.0.0": {
+        "dependencies": {
+          "ICG.SportsPush.BettingCloud.DTOs": "1.0.0"
+        },
+        "runtime": {
+          "IGC.SportsPush.BettingCloud.ServiceInterfaces.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "ConsoleTestForGraphQL/1.0.0": {
+    "IGC.SportsPush.BettingCloud.ServiceHttp/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -421,13 +430,6 @@
       "sha512": "sha512-wBM7i7i3U2WX0ecor4zdVGvgrwFUjuigBoHKiL+nH39fCOpCPjBY3RDqJM32edvdyTAVdjzlccHsg41+/+zpSA==",
       "path": "newtonsoft.json/10.0.3",
       "hashPath": "newtonsoft.json.10.0.3.nupkg.sha512"
-    },
-    "RESTClientDotNet/0.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-oJ0+G2IWOb9Wq74TovOQl0okr0PTOgsW9kqm6Mmiwry0JO18T8srS+FyLGGjQKjg5F6gen6ty9IEwfAct/Y+zQ==",
-      "path": "restclientdotnet/0.3.0",
-      "hashPath": "restclientdotnet.0.3.0.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",
@@ -694,6 +696,16 @@
       "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "ICG.SportsPush.BettingCloud.DTOs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IGC.SportsPush.BettingCloud.ServiceInterfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

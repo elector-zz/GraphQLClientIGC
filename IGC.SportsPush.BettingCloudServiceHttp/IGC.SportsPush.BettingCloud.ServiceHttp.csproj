@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ICG.SportsPush.BettingCloudTransportModel\ICG.SportsPush.BettingCloud.DTOs.csproj" />
+    <ProjectReference Include="..\IGC.SportsPush.BettingCloudServiceInterfaces\IGC.SportsPush.BettingCloud.ServiceInterfaces.csproj" />
+  </ItemGroup>
+
+</Project>

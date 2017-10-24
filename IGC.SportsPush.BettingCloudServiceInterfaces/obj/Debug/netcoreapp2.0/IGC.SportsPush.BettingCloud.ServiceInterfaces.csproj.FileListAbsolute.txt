@@ -1,0 +1,11 @@
+C:\DEV\GraphQLPOC\GraphQLClientIGC\IGC.SportsPush.BettingCloudServiceInterfaces\obj\Debug\netcoreapp2.0\IGC.SportsPush.BettingCloud.ServiceInterfaces.csprojResolveAssemblyReference.cache
+C:\DEV\GraphQLPOC\GraphQLClientIGC\IGC.SportsPush.BettingCloudServiceInterfaces\obj\Debug\netcoreapp2.0\IGC.SportsPush.BettingCloud.ServiceInterfaces.csproj.CoreCompileInputs.cache
+C:\DEV\GraphQLPOC\GraphQLClientIGC\IGC.SportsPush.BettingCloudServiceInterfaces\obj\Debug\netcoreapp2.0\IGC.SportsPush.BettingCloud.ServiceInterfaces.AssemblyInfoInputs.cache
+C:\DEV\GraphQLPOC\GraphQLClientIGC\IGC.SportsPush.BettingCloudServiceInterfaces\obj\Debug\netcoreapp2.0\IGC.SportsPush.BettingCloud.ServiceInterfaces.AssemblyInfo.cs
+C:\DEV\GraphQLPOC\GraphQLClientIGC\IGC.SportsPush.BettingCloudServiceInterfaces\bin\Debug\netcoreapp2.0\IGC.SportsPush.BettingCloud.ServiceInterfaces.deps.json
+C:\DEV\GraphQLPOC\GraphQLClientIGC\IGC.SportsPush.BettingCloudServiceInterfaces\bin\Debug\netcoreapp2.0\IGC.SportsPush.BettingCloud.ServiceInterfaces.dll
+C:\DEV\GraphQLPOC\GraphQLClientIGC\IGC.SportsPush.BettingCloudServiceInterfaces\bin\Debug\netcoreapp2.0\IGC.SportsPush.BettingCloud.ServiceInterfaces.pdb
+C:\DEV\GraphQLPOC\GraphQLClientIGC\IGC.SportsPush.BettingCloudServiceInterfaces\bin\Debug\netcoreapp2.0\ICG.SportsPush.BettingCloud.DTOs.dll
+C:\DEV\GraphQLPOC\GraphQLClientIGC\IGC.SportsPush.BettingCloudServiceInterfaces\bin\Debug\netcoreapp2.0\ICG.SportsPush.BettingCloud.DTOs.pdb
+C:\DEV\GraphQLPOC\GraphQLClientIGC\IGC.SportsPush.BettingCloudServiceInterfaces\obj\Debug\netcoreapp2.0\IGC.SportsPush.BettingCloud.ServiceInterfaces.dll
+C:\DEV\GraphQLPOC\GraphQLClientIGC\IGC.SportsPush.BettingCloudServiceInterfaces\obj\Debug\netcoreapp2.0\IGC.SportsPush.BettingCloud.ServiceInterfaces.pdb

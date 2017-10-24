@@ -7,7 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 
-namespace GraphQL
+namespace IGC.SportsPush.BettingCloud.ServiceHttp
 {
     public class GraphQLClient
     {
@@ -44,7 +44,7 @@ namespace GraphQL
                 {
                     return JsonConvert.DeserializeObject<T>(this.data["data"][key].ToString());
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     return default(T);
                 }
@@ -81,17 +81,22 @@ namespace GraphQL
         }
         public dynamic Query(string query, List<KeyValuePair<string, object>> variables, string operationName)
         {
-            var str = "{" + string.Join(",", variables.Select(item => "\n  \"" + item.Key + "\": " + item.Value )) + "\n}";
+            string variablesString = String.Empty;
+
+            if (variables != null)
+            {
+                variablesString = "{" + string.Join(",", variables.Select(item => "\n  \"" + item.Key + "\": " + item.Value)) + "\n}";
+            }
 
             var fullQuery = new GraphQLQuery()
             {
                 query = query,
-                variables = str,
+                variables = variablesString,
                 operationName = operationName
             };
             string jsonContent = JsonConvert.SerializeObject(fullQuery);
 
-            Console.WriteLine(jsonContent);
+            //Console.WriteLine(jsonContent);
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.Method = "POST";
 
@@ -126,10 +131,12 @@ namespace GraphQL
                 {
                     StreamReader reader = new StreamReader(responseStream, Encoding.GetEncoding("utf-8"));
                     String errorText = reader.ReadToEnd();
-                    Console.WriteLine(errorText);
+                    //Console.WriteLine(errorText);
                     return new GraphQLQueryResult(null, ex);
                 }
             }
         }
     }
+
 }
+

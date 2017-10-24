@@ -10,4 +10,10 @@
     <PackageReference Include="RESTClientDotNet" Version="0.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ICG.SportsPush.BettingCloudTransportModel\ICG.SportsPush.BettingCloud.DTOs.csproj" />
+    <ProjectReference Include="IGC.SportsPush.BettingCloudServiceHttp\IGC.SportsPush.BettingCloud.ServiceHttp.csproj" />
+    <ProjectReference Include="IGC.SportsPush.BettingCloudServiceInterfaces\IGC.SportsPush.BettingCloud.ServiceInterfaces.csproj" />
+  </ItemGroup>
+
 </Project>
