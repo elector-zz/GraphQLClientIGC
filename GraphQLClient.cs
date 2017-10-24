@@ -83,12 +83,6 @@ namespace GraphQL
         {
             var str = "{" + string.Join(",", variables.Select(item => "\n  \"" + item.Key + "\": " + item.Value )) + "\n}";
 
-            StringBuilder variablesString = new StringBuilder();
-            foreach(var item in variables)
-            {
-                variablesString.Append("{\n  \"" + item.Key + "\": " + item.Value + "\n}");
-            }
-
             var fullQuery = new GraphQLQuery()
             {
                 query = query,
