@@ -1,0 +1,17 @@
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\bin\Debug\netcoreapp2.0\GraphQL.Introspection.deps.json
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\bin\Debug\netcoreapp2.0\GraphQL.Introspection.runtimeconfig.json
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\bin\Debug\netcoreapp2.0\GraphQL.Introspection.runtimeconfig.dev.json
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\bin\Debug\netcoreapp2.0\GraphQL.Introspection.dll
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\bin\Debug\netcoreapp2.0\GraphQL.Introspection.pdb
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\bin\Debug\netcoreapp2.0\ICG.SportsPush.BettingCloud.DTOs.dll
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\bin\Debug\netcoreapp2.0\IGC.SportsPush.BettingCloud.ServiceHttp.dll
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\bin\Debug\netcoreapp2.0\IGC.SportsPush.BettingCloud.ServiceInterfaces.dll
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\bin\Debug\netcoreapp2.0\IGC.SportsPush.BettingCloud.ServiceHttp.pdb
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\bin\Debug\netcoreapp2.0\ICG.SportsPush.BettingCloud.DTOs.pdb
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\bin\Debug\netcoreapp2.0\IGC.SportsPush.BettingCloud.ServiceInterfaces.pdb
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\obj\Debug\netcoreapp2.0\1. GraphQL.Introspection.csprojResolveAssemblyReference.cache
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\obj\Debug\netcoreapp2.0\1. GraphQL.Introspection.csproj.CoreCompileInputs.cache
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\obj\Debug\netcoreapp2.0\1. GraphQL.Introspection.AssemblyInfoInputs.cache
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\obj\Debug\netcoreapp2.0\1. GraphQL.Introspection.AssemblyInfo.cs
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\obj\Debug\netcoreapp2.0\GraphQL.Introspection.dll
+C:\DEV\GraphQLPOC\GraphQLClientIGC\GraphQL.Introspection\obj\Debug\netcoreapp2.0\GraphQL.Introspection.pdb

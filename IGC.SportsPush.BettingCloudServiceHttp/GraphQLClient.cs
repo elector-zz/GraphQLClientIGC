@@ -49,6 +49,19 @@ namespace IGC.SportsPush.BettingCloud.ServiceHttp
                     return default(T);
                 }
             }
+
+            public T GetSchema<T>(string key)
+            {
+                if (data == null) return default(T);
+                try
+                {
+                    return JsonConvert.DeserializeObject<T>(this.data["data"]["__schema"][key].ToString());
+                }
+                catch (Exception ex)
+                {
+                    return default(T);
+                }
+            }
             public dynamic Get(string key)
             {
                 if (data == null) return null;

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICG.SportsPush.BettingCloud.DTOs", "..\ICG.SportsPush.BettingCloudTransportModel\ICG.SportsPush.BettingCloud.DTOs.csproj", "{0BC9BA8A-E229-4DBE-9DBA-A74AE475415E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICG.SportsPush.BettingCloud.DTOs", "..\ICG.SportsPush.BettingCloudTransportModel\ICG.SportsPush.BettingCloud.DTOs.csproj", "{0BC9BA8A-E229-4DBE-9DBA-A74AE475415E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGC.SportsPush.BettingCloud.ServiceInterfaces", "IGC.SportsPush.BettingCloudServiceInterfaces\IGC.SportsPush.BettingCloud.ServiceInterfaces.csproj", "{60F0C8F1-0C4E-46BA-859D-37AD1B2E5A59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGC.SportsPush.BettingCloud.ServiceInterfaces", "IGC.SportsPush.BettingCloudServiceInterfaces\IGC.SportsPush.BettingCloud.ServiceInterfaces.csproj", "{60F0C8F1-0C4E-46BA-859D-37AD1B2E5A59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGC.SportsPush.BettingCloud.ServiceHttp", "IGC.SportsPush.BettingCloudServiceHttp\IGC.SportsPush.BettingCloud.ServiceHttp.csproj", "{79869355-CC20-469F-97C0-30823EFA6870}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IGC.SportsPush.BettingCloud.ServiceHttp", "IGC.SportsPush.BettingCloudServiceHttp\IGC.SportsPush.BettingCloud.ServiceHttp.csproj", "{79869355-CC20-469F-97C0-30823EFA6870}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTestForGraphQL", "..\..\..\Users\branko.stojakovic\Documents\Visual Studio 2017\Projects\ConsoleTestForGraphQL\ConsoleTestForGraphQL.csproj", "{875E508B-5B90-46C0-ADDA-3A049B36709B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. GraphQL.Introspection", "GraphQL.Introspection\1. GraphQL.Introspection.csproj", "{51272863-EF84-4D13-A872-FF015FC991EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{875E508B-5B90-46C0-ADDA-3A049B36709B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{875E508B-5B90-46C0-ADDA-3A049B36709B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{875E508B-5B90-46C0-ADDA-3A049B36709B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51272863-EF84-4D13-A872-FF015FC991EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51272863-EF84-4D13-A872-FF015FC991EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51272863-EF84-4D13-A872-FF015FC991EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51272863-EF84-4D13-A872-FF015FC991EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

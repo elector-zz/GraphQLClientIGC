@@ -6,23 +6,23 @@ using ICG.SportsPush.BettingCloud.DTOs;
 
 namespace IGC.SportsPush.BettingCloud.ServiceHttp
 {
-    public class SportsServiceHttp : ISportsService
+    public class CategoryServiceHttp : ICategoriesService
     {
-        public SportTypeDTO GetSport(List<KeyValuePair<string, object>> queryVariables)
+        public List<CategoryTypeDTO> GetCategories(List<KeyValuePair<string, object>> queryVariables)
         {
             try
             {
                 // TODO: Extract the URL into configuration or factory creator (becuse of different operators)
                 var client = new GraphQLClient("https://stage.bettingcloud.com/api/customerdata/guts/graphql");
                 // TODO: Extract the Query strings to an external file
-                var query = @"query GetSport($sportid: ID, $isActive: Boolean) {
-                              sports(id: $sportid, isActive: $isActive) {
+                var query = @"query {
+                              categories{
                                 id,
                                 name
                               }
                             }";
 
-                var obj = client.Query(query, queryVariables, "GetSport").Get<List<SportTypeDTO>>("sports");
+                var obj = client.Query(query, null, null).Get<List<CategoryTypeDTO>>("sports");
                 if (obj != null)
                 {
                     return obj;
@@ -39,15 +39,15 @@ namespace IGC.SportsPush.BettingCloud.ServiceHttp
             }
         }
 
-        public List<SportTypeDTO> GetSports(List<KeyValuePair<string, object>> queryVariables)
+        public CategoryTypeDTO GetCategory(List<KeyValuePair<string, object>> queryVariables)
         {
             try
             {
                 // TODO: Extract the URL into configuration or factory creator (becuse of different operators)
                 var client = new GraphQLClient("https://stage.bettingcloud.com/api/customerdata/guts/graphql");
                 // TODO: Extract the Query strings to an external file
-                var query = @"query GetSports($sportid: ID, $isActive: Boolean) {
-                              sports(id: $sportid, isActive: $isActive) {
+                var query = @"query GetCategory($categoryid: ID, $isActive: Boolean) {
+                              sports(id: $categoryid, isActive: $isActive) {
                                 id,
                                 name,
                                 prematchEventCount,
@@ -57,7 +57,7 @@ namespace IGC.SportsPush.BettingCloud.ServiceHttp
                               }
                             }";
 
-                var obj = client.Query(query, queryVariables, "GetSports").Get<List<SportTypeDTO>>("sports");
+                var obj = client.Query(query, queryVariables, "GetCategory").Get<List<CategoryTypeDTO>>("sports");
                 if (obj != null)
                 {
                     return obj;
@@ -67,7 +67,7 @@ namespace IGC.SportsPush.BettingCloud.ServiceHttp
                     throw new Exception("Response was a NULL object");
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 // TODO: Logging
                 return null;

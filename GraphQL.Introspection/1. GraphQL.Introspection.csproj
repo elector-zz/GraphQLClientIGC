@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>GraphQL.Introspection</RootNamespace>
+    <AssemblyName>GraphQL.Introspection</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IGC.SportsPush.BettingCloudServiceHttp\IGC.SportsPush.BettingCloud.ServiceHttp.csproj" />
+  </ItemGroup>
+
+</Project>
